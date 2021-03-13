@@ -8,3 +8,15 @@ Lo que se pide es generar una imagen Docker que corra esa aplicación. Más conc
 Resolver el ejercicio en un directorio "ejercicio_04" del repositorio personal.
 Mencionar en el readme el link a la imagen publicada en dockerhub
 Entregar el link al repositorio github.
+
+
+### BUILD
+docker build . -t davidg/ejercicio_04:1
+
+### RUN 
+docker run -d  -p 8080:8080 --name=dgk davidgk/ejercicio_04:1
+
+### DOCKERHUB
+https://hub.docker.com/repository/docker/davidgk/ejercicio_04
+ 
+
