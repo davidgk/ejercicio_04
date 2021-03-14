@@ -11,7 +11,7 @@ Entregar el link al repositorio github.
 
 
 ### BUILD
-docker build . -t davidg/ejercicio_04:1
+docker build . -t davidgk/ejercicio_04:1
 
 ### RUN 
 docker run -d  -p 8080:8080 --name=dgk davidgk/ejercicio_04:1
